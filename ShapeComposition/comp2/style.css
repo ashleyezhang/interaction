@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #eee;
+}
+
+p, a {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.outer {
+  width: 600px;
+  height: 600px;
+  background-color: magenta;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.red {
+  background-color: red;
+  height: 600px;
+  width: 200px;
+  float: left;
+}
+
+.white {
+  background-color: white;
+  height: 200px;
+  width: 400px;
+  float: right;
+}
+
+.black {
+  background-color: black;
+  height: 200px;
+  width: 200px;
+  float: left;
+}

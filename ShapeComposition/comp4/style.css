@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #eee;
+}
+
+p, a {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.outer {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  margin: 0 auto;
+  font-size: 0;
+  padding: 100px;
+}
+
+.green {
+  width: 200px;
+  height: 200px;
+  background-color: lime;
+  margin: 0 auto;
+  font-size: 0;
+  padding: 100px;
+}
+
+.blue {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 0 auto;
+  font-size: 0;
+}
