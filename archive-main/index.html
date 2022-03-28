@@ -16,154 +16,27 @@
 		</a>
 		<div id="channel-description"></div> <!-- Same here for the channel description. -->
 
-
-
-		<!-- All the channel “blocks” will be created as children, here. -->
-		<!-- You could move the classes to different section elements to separate the types! -->
+<h2> Genres </h2>
 
 <div class="container">
-		<section class="block audio-embed-blocks audio-file-blocks">
-			<h2>Audio</h2>
-		</section>
+		<div class="card">
+			<a href="./audio.html">
+				<img src="assets/audio-cover.png" alt="Audio" width="">
+			</a>
+		</div>
 
-		<section class="block video-embed-blocks video-file-blocks">
-			<h2>Videos</h2>
-		</section>
+		<div class="card">
+			<a href="./videos.html">
+				<img src="assets/videos-cover.png" alt="Videos" width="">
+			</a>
+		</div>
 
-		<section class="block link-blocks">
-			<h2>Links</h2>
-		</section>
-
-		<section class="block image-blocks">
-			<h2>Images</h2>
-		</section>
-
-		<section class="block embed-blocks  pdf-blocks text-blocks">
-			<h2>Other</h2>
-		</section>
+		<div class="card">
+			<a href="./links.html">
+				<img src="assets/links-cover.png" alt="Links" width="">
+			</a>
+		</div>
 </div>
-
-		<!-- These are the templates for the various block types, below. -->
-		<!-- You can move/nest/remove any of the insertion points! -->
-		<!-- For example, you could only show images for actual image blocks. -->
-		<!-- You could not show the type if you group them by section, above. -->
-
- 		<!-- Spotify, Soundcloud, etc. -->
-		<template id="audio-embed-block">
-			<figure class="audio-embed"> <!-- You can use the container classes to style a whole type. -->
-				<!-- <h3 class="title"></h3> <!-- Block title inserts here. -->
-				<!-- <div class="embed"></div> <!-- Embed iframe inserts here. -->
-				<!-- <p class="type"></p> <!-- Block type/kind inserts here. -->
-				<div class="image-container">
-						<a class="link" target="_blank">
-						<img class="image"> <!-- Image/cover image source inserts here. -->
-						</a>
-				</div>
-				<div class="text-container">
-						<a class="link"> <!-- Original URL inserts here. -->
-							<p class="link-title"></p> <!-- Link title inserts here. -->
-						</a>
-						<figcaption class="description"></figcaption> <!-- Block description inserts here. -->
-				</div>
-			</figure>
-		</template>
-
- 		<!-- Uploaded audio files. -->
-		<template id="audio-file-block">
-			<figure class="audio-file-block">
-				<h3 class="title"></h3>
-				<!-- <img class="image"> -->
-				<audio class="audio" controls></audio> <!-- Audio source inserts here. -->
-				<figcaption class="description"></figcaption>
-				<p class="type"></p>
-			</figure>
-		</template>
-
-		<template id="image-block">
-			<figure class="image-block">
-				<!-- <h3 class="title"></h3> <!-- Block title inserts here. -->
-				<!-- <p class="type"></p> <!-- Block type/kind inserts here. -->
-				<div class="image-container">
-						<img class="image"> <!-- Image/cover image source inserts here. -->
-				</div>
-				<div class="text-container">
-						<h3 class="title"></h3>
-						<p class="link-title"></p> <!-- Link title inserts here. -->
-						<figcaption class="description"></figcaption> <!-- Block description inserts here. -->
-				</div>
-			</figure>
-		</template>
-
-		<template id="link-block">
-			<figure class="link-block">
-				<!-- <h3 class="title"></h3> <!-- Block title inserts here. -->
-				<!-- <p class="type"></p> <!-- Block type/kind inserts here. -->
-				<div class="image-container">
-						<a class="link" target="_blank">
-						<img class="image"> <!-- Image/cover image source inserts here. -->
-						</a>
-				</div>
-				<div class="text-container">
-						<a class="link"> <!-- Original URL inserts here. -->
-							<p class="link-title"></p> <!-- Link title inserts here. -->
-						</a>
-						<figcaption class="description"></figcaption> <!-- Block description inserts here. -->
-				</div>
-			</figure>
-		</template>
-
-		<template id="pdf-block">
-			<figure class="pdf-block">
-				<h3 class="title"></h3>
-				<img class="image">
-				<a class="link"> <!-- PDF link inserts here. -->
-					<p class="link-title"></p> <!-- Repeats the block title. -->
-				</a>
-				<figcaption class="description"></figcaption>
-				<p class="type"></p>
-			</figure>
-		</template>
-
-		<template id="text-block">
-			<figure class="text-block">
-				<h3 class="title"></h3>
-				<div class="content"></div> <!-- Text blocks insert their HTML here. -->
-				<figcaption class="description"></figcaption>
-				<!-- <p class="type"></p> -->
-			</figure>
-		</template>
-
-		<!-- YouTube, Vimeo, etc. -->
-		<template id="video-embed-block">
-			<figure class="video-embed-block">
-				<!-- <h3 class="title"></h3> <!-- Block title inserts here. -->
-				<!-- <div class="embed"></div> <!-- Embed iframe inserts here. -->
-				<!-- <p class="type"></p> <!-- Block type/kind inserts here. -->
-				<div class="image-container">
-						<a class="link" target="_blank">
-						<img class="image"> <!-- Image/cover image source inserts here. -->
-						</a>
-				</div>
-				<div class="text-container">
-						<a class="link"> <!-- Original URL inserts here. -->
-							<p class="link-title"></p> <!-- Link title inserts here. -->
-						</a>
-						<figcaption class="description"></figcaption> <!-- Block description inserts here. -->
-				</div>
-			</figure>
-		</template>
-
-		<!-- Uploaded video files. -->
-		<template id="video-file-block">
-			<figure class="video-file-block">
-				<h3 class="title"></h3>
-				<!-- <img class="image"> -->
-				<video class="video" controls></video> <!-- Video source inserts here. -->
-				<figcaption class="description"></figcaption>
-				<p class="type"></p>
-			</figure>
-		</template>
-
 
 
 	</body>
